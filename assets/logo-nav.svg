@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 60" width="260" height="60">
+  <title>Agency Roofing Co.</title>
+  <defs>
+    <filter id="aLiftNav" x="-18%" y="-18%" width="136%" height="136%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="0.5"/>
+      <feOffset dx="0.4" dy="0.8"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.3"/></feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Shield (scale 0.54, right edge ~ x=52.7, wordmark starts at x=78 = 25px clear space) -->
+  <g transform="translate(3, 3) scale(0.54)">
+    <path d="M50 4 L92 27 L92 73 L50 96 L8 73 L8 27 Z"
+          fill="none" stroke="#1C1A18" stroke-width="2.4" opacity="0.9"/>
+    <path d="M50 12 L84 31 L84 69 L50 88 L16 69 L16 31 Z"
+          fill="none" stroke="#C97E78" stroke-width="1.6"/>
+    <line x1="50" y1="7.5" x2="50" y2="12.5" stroke="#C97E78" stroke-width="1.4" opacity="0.85"/>
+    <g filter="url(#aLiftNav)">
+      <path d="M 34 70 C 33 56, 37 40, 43 28 C 46 21, 50 16, 50 16"
+            fill="none" stroke="#C97E78" stroke-width="5.5" stroke-linecap="round"/>
+      <path d="M 32.5 69 C 31.5 55, 35.2 38.5, 41.5 26.5 C 44.5 19.5, 48.7 15, 48.7 15"
+            fill="none" stroke="#F0C8C2" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M 50 16 C 50 16, 54 21, 57 28 C 63 40, 67 56, 66 70"
+            fill="none" stroke="#974930" stroke-width="5.5" stroke-linecap="round"/>
+      <path d="M 50.8 17.5 C 50.8 17.5, 53.8 22.5, 56.5 29.5 C 62 41.5, 65.5 57, 64.5 70"
+            fill="none" stroke="#C97E78" stroke-width="1.6" stroke-linecap="round"/>
+      <line x1="36.5" y1="49" x2="63.5" y2="49" stroke="#C97E78" stroke-width="3.4" stroke-linecap="round"/>
+      <line x1="37" y1="47.7" x2="63" y2="47.7" stroke="#F0C8C2" stroke-width="1.1" stroke-linecap="round"/>
+    </g>
+    <circle cx="50" cy="16" r="4.2" fill="#974930"/>
+    <circle cx="50" cy="16" r="2.9" fill="#C97E78"/>
+    <circle cx="48.5" cy="14.6" r="1.4" fill="#F0C8C2"/>
+    <line x1="31" y1="76" x2="69" y2="76" stroke="#1C1A18" stroke-width="1.1" opacity="0.32" stroke-linecap="round"/>
+  </g>
+
+  <text x="78" y="36"
+        font-family="Anton, 'Oswald', 'Bebas Neue', sans-serif"
+        font-size="28"
+        font-weight="400"
+        fill="#1C1A18"
+        letter-spacing="1">AGENCY</text>
+
+  <text x="78" y="50"
+        font-family="'Bebas Neue', 'Oswald', sans-serif"
+        font-size="9"
+        font-weight="700"
+        fill="#974930"
+        letter-spacing="3.5">ROOFING CO.</text>
+</svg>
